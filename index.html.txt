@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Corazón Roto 💔 - milojade</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+      min-height: 100vh; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      font-family: 'Arial', sans-serif; 
+      color: white; 
+      text-align: center; 
+    }
+    h1 { font-size: 3.5em; margin-bottom: 1em; text-shadow: 0 2px 10px rgba(0,0,0,0.5); animation: pulse 2s infinite; }
+    p { font-size: 1.2em; margin-bottom: 2em; }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+    iframe { border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+  </style>
+</head>
+<body>
+  <h1>💔 Corazón Roto 💔</h1>
+  <p>Tu página Figma + Spotify por milojade</p>
+  
+  <!-- CAMBIA ESTA CANCIÓN POR LA TUYA -->
+  <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" 
+    width="90%" height="450" 
+    frameBorder="0" 
+    allow="autoplay; encrypted-media; clipboard-write">
+  </iframe>
+</body>
+</html>
